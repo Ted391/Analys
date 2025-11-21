@@ -31,7 +31,7 @@ steps:
    run: dotnet restore
  - name: Build & Test (baseline)
    run: |
-    # Используем базовый набор правил
+    # РСЃРїРѕР»СЊР·СѓРµРј Р±Р°Р·РѕРІС‹Р№ РЅР°Р±РѕСЂ РїСЂР°РІРёР»
     cp .editorconfig.base .editorconfig
     echo "=== BUILD (base rules) ==="
     dotnet build --no-restore -c Release | tee build-base.log || true
@@ -47,7 +47,7 @@ steps:
 
  - name: Build & Test (strict)
    run: |
-    # Используем строгий набор правил
+    # РСЃРїРѕР»СЊР·СѓРµРј СЃС‚СЂРѕРіРёР№ РЅР°Р±РѕСЂ РїСЂР°РІРёР»
     cp .editorconfig.strict .editorconfig
     echo "=== BUILD (strict rules) ==="
     dotnet build --no-restore -c Release | tee build-strict.log || true
