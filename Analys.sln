@@ -22,6 +22,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0C0C781A-85F5-43A0-AD48-FE932CF83047}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{641A90DD-26B1-4711-AE4B-5A882AFF18E3}"
+	ProjectSection(SolutionItems) = preProject
+		ci-analysis.yml = ci-analysis.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
